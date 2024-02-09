@@ -1,0 +1,15 @@
+ n_subject: 10
+ dir_in:  data/
+ dir_out: data/ISRUC
+ channels: 15
+ channels_main: F3,C3,O1,F4,C4,O2,ROC,LOC,X1,X2,X3,X4,X7,X8,SaO2
+ fs: 200
+ desired_fs: 100
+ channels_eeg: O1-A2,F4-A1,C4-A1,O2-A1,F3-A2,C3-A2
+ channels_eog: ROC-A1,LOC-A2,F3-A2,C3-A2
+ channels_ecg: X2
+ channels_emg: X1,X3,X4
+ channels_abdom: X7,X8
+ channels_SaO2: SaO2
+ Sleep_stage: N1,N2,N3,REM,Awake
+ epochs_in: 30
