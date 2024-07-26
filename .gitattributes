@@ -1,0 +1,11 @@
+# Indica que todos los archivos .py deben ser clasificados como Python
+*.py linguist-language=Python
+
+# Indica que todos los archivos .ipynb deben ser clasificados como Python
+*.ipynb linguist-language=Python
+
+# Ignora los archivos HTML en la detección de lenguaje principal
+*.html linguist-documentation
+
+# Ignora toda la carpeta docs/ en la detección de lenguaje principal
+docs/* linguist-documentation
